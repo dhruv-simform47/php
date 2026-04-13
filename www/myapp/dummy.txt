@@ -1,0 +1,16 @@
+In php variables are case sensitive 
+To declare,access variable $ (dollar) is used
+Ex:
+$message=”hello”;
+
+Constant:
+In php constant is not allowed to change while script is executing.
+$ is not needed to access constant:
+
+
+2 ways for constant : 
+Using const keyword
+It create constant at compile time
+Using define function
+It create constant at run time so based on condition we can create constant using define in any place in the code but not using const 
+It take 2 args  define(‘constant_name’,’constant_value’);
