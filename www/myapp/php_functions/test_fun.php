@@ -1,7 +1,7 @@
 
 <?php 
 
- foo();
+//  foo();
 
 include_once "functions.php";
 
@@ -13,5 +13,16 @@ include_once "functions.php";
 // {
 //     echo "helooo"; 
 // }
+$y=10;
+$fn1= fn($x)=> $x +$y;
+$fn2=function ($x) use ($y)
+{
+    return $x-$y;
+};
+// $r=$fn1(20);
+// echo $r;
 
+var_export($fn1(30));
+echo "<br>";
+var_export($fn2(30));
 ?>    

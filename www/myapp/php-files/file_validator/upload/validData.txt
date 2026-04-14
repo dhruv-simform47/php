@@ -1,0 +1,5 @@
+Name,Email,Age
+
+Alice Smith,alice@example.com,28
+Charlie Brown,charlie@example.com,35
+Eve Adams,eve@example.com,42
