@@ -68,6 +68,51 @@ while($i <= 20)
 echo "Number is - $i <br>";
 $i+=1;
 }   
+
+echo "last<br>";
+$d1=["hello","hi","bye"];
+print_r($d1);
+var_dump($d1);
+?>
+
+<?php
+$d1=["hello","hi","bye"];
+print_r($d1);
+var_dump($d1);
+
+$tasks = [
+	['Learn PHP programming', 2],
+	['Practice PHP', 2],
+	['Work', 8],
+	['Do exercise', 1],
+];
+
+$flash=[
+    "Success"=>[
+        "Message"=>[
+            "Verified done",
+            "Authentication done"
+                  ]
+              ]
+        ];
+print_r($flash);
+
+ $x=json_encode($flash["Success"]);
+
+
+$arr["FLASH"]["Success"]=["Message"=>"Verified"];
+print_r($arr);
+echo $arr["FLASH"]["Success"]["Message"];
+
+
+ 
+echo "\n". $x;
+
+// echo strpos($x,"[");
+// echo strpos($x,"]");
+echo "\n".substr($x,strpos($x,"["),(strpos($x,"]")+1)-(strpos($x,"[")));
+// echo "\n". $x;
+
 ?>
 
 </body>

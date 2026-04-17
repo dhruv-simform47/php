@@ -8,6 +8,7 @@ services:
       - "80:80"
     volumes:
       - ./www:/var/www/html
+      # - ./vendor:/var/www/vendor
       - ./apache/vhost.conf:/etc/apache2/sites-available/000-default.conf
     depends_on:
       - db
