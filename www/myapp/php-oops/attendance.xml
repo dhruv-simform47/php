@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<studentdata>
+  <departmemt>MCA</departmemt>
+  <batch>2024-2026</batch>
+  <students>
+    <student>
+      <rollno>24MCA001</rollno>
+      <name>Dhruv Rana</name>
+      <attendence>95</attendence>
+    </student>
+    <student>
+      <rollno>24MCA002</rollno>
+      <name>Arjun Patel</name>
+      <attendence>88</attendence>
+    </student>
+    <student>
+      <rollno>24MCA002</rollno>
+      <name>Dev Raval</name>
+      <attendence>80</attendence>
+    </student>
+    <student>
+      <rollno>24MCA003</rollno>
+      <name>ved parekh</name>
+      <attendence>88</attendence>
+    </student>
+    <student>
+      <rollno>24MCA004</rollno>
+      <name>ankush</name>
+      <attendence>67</attendence>
+    </student>
+  </students>
+</studentdata>
